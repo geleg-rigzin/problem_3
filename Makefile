@@ -16,6 +16,7 @@ run: qs tim omp
 	./sc.sh
 tim:
 	$(CXX) tim.cpp -o tim
+	
 format:
 	clang-format -i -style=Chromium *.c
 
